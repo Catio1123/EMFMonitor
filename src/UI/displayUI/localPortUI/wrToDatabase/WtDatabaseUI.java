@@ -11,13 +11,12 @@ import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
 import POJO.enumList.DBConnection;
 import POJO.enumList.LocalPort;
 import POJO.timer.SquentialRec;
-
-
 
 public class WtDatabaseUI extends JFrame {
 
@@ -49,10 +48,13 @@ public class WtDatabaseUI extends JFrame {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				rec = new SquentialRec(txtDelay.getText(), txtPeriod.getText(), (String)boxCon.getSelectedItem(), (String)boxPort.getSelectedItem());
+				rec = new SquentialRec(txtDelay.getText(), txtPeriod.getText(), (String) boxCon.getSelectedItem(),
+						(String) boxPort.getSelectedItem());
+				
+				JOptionPane.showMessageDialog(null, "Start recording. ", "Record", JOptionPane.INFORMATION_MESSAGE);
 			}
 		});
-		
+
 		add(btnStar);
 
 		JButton btnStop = new JButton("Stop");
@@ -60,7 +62,9 @@ public class WtDatabaseUI extends JFrame {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
+
 				rec.cancel();
+				JOptionPane.showMessageDialog(null, "Stop recording. ", "Record", JOptionPane.INFORMATION_MESSAGE);
 			}
 		});
 		add(btnStop);

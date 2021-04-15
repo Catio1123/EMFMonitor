@@ -22,7 +22,7 @@ public class HomeUI extends JFrame {
 	private Font btnFont = new Font("btnCon", Font.BOLD, 16);
 	private JButton btnCon;
 	private JButton btnRT;
-	private JButton btnHis;
+	
 
 	public HomeUI() {
 

@@ -20,6 +20,7 @@ public class TES1394ToDatabase extends TimerTask{
 	private TES1394Bean data;
 	
 	
+	
 	public TES1394ToDatabase(String port, String loc) {
 		this.port = port;
 //		System.out.println("port:" + port);
