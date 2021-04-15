@@ -13,3 +13,6 @@
 * 3.點擊"Display" 選擇街口與裝置，按下"Show"，跳出電磁場即時偵測視窗
 * 4.點擊視窗右下角"write into database"設定相關參數，將資料記錄至資料庫中
 
+---------
+Demo Gif
+![image](../demo/Demo.gif)
