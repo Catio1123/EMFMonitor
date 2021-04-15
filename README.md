@@ -13,9 +13,9 @@ Referenced Libraries : RXTX
 1.建立連線
 -----------
 建立本地接口連線:
-![image](picture/connDemo.png)
+![image](picture/connDemo.jpg)
 
 建立資料庫連線:
-![image](picture/DBconnDemo.png)
+![image](picture/DBconnDemo.jpg)
 
 -----------------
