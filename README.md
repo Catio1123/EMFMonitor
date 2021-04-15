@@ -4,7 +4,7 @@
 * 硬體設備 : TES-1394 電磁波測試計(http://www.tes.com.tw/product_detail.asp?seq=100)
 * 資料庫 : SQL Server
 * 開發環境 : Java SE 8
-* Referenced Libraries : RXTX
+* Referenced Libraries : RXTXcomm.jar、mssql-jdbc-9.2.1.jre8.jar
 
 ---------
 
