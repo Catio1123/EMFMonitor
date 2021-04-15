@@ -15,4 +15,4 @@
 
 ---------
 Demo Gif
-![image](../demo/Demo.gif)
+![image](demo/Demo.gif)
