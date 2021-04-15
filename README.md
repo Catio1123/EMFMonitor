@@ -10,7 +10,7 @@
 
 * 1.執行HomeUI.class(bin/UI/HomeUI.class)
 * 2.點擊"Connect/DisConnect" 分別建立本地接口和資料庫的連線
-* 3.點擊"Display" 選擇街口與裝置，按下"Show"，跳出電磁場即時偵測視窗
+* 3.點擊"Display" 選擇接口與裝置，按下"Show"，跳出電磁場即時偵測視窗
 * 4.點擊視窗右下角"write into database"設定相關參數，將資料記錄至資料庫中
 
 ---------
